@@ -1,0 +1,189 @@
+[main] INFO  midlab.storm.autoscaling.profiler.Profiler  - Profiling iteration 44..
+[main] INFO  midlab.storm.autoscaling.profiler.Profiler  - Profiling regression for component __metricsmidlab.storm.scheduler.SchedulerMetricsConsumer..
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - Current component: __metricsmidlab.storm.scheduler.SchedulerMetricsConsumer
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - 	task5: load: 0; input traffic: 0
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - 	aggregated resources:
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - 	    tot load: 0
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - 	    tot stream in: 0
+
+[main] INFO  midlab.storm.autoscaling.profiler.Profiler  - Profiling selectivity for component __metricsmidlab.storm.scheduler.SchedulerMetricsConsumer..
+
+[main] INFO  midlab.storm.autoscaling.profiler.Profiler  - Profiling regression for component feature-generation-bolt..
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - Current component: feature-generation-bolt
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - 	task6: load: 399920558; input traffic: 370
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - 	task7: load: 500415735; input traffic: 359
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - 	task8: load: 391143093; input traffic: 258
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - 	task9: load: 352230742; input traffic: 184
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - 	aggregated resources:
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - 	    tot load: 1678716865
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - 	    tot stream in: 2136
+
+[main] INFO  midlab.storm.autoscaling.profiler.Profiler  - Profiling selectivity for component feature-generation-bolt..
+[main] INFO  midlab.storm.autoscaling.profiler.SelectivityProfiler  - 	dest component: svm-bolt, stream out = 1623, alfa = 0.7598314606741573
+[main] INFO  midlab.storm.autoscaling.profiler.SelectivityProfiler  - 	edge: (feature-generation-bolt : svm-bolt), alfa avg: 0.9167322257227547, alfa history: 0.7598314606741573  0.4997043169722058  1.0443520443520444  0.8477226376614548  0.8805460750853242  1.086092715231788  0.9959211420802175  1.1785400175901495  0.9956076134699854  1.0050983248361254  1.0023474178403755  0.999219968798752  0.9343137254901961  0.9974554707379135  0.9949409780775716  0.9990783410138249  0.998158379373849  1.0  1.0010204081632652  0.9898580121703854  1.0057142857142858  1.0034246575342465  1.0  1.0  1.0921052631578947  1.0  1.0  0.9914089347079038  0.9983079526226735  0.9917864476386037  1.004158004158004  1.01875  1.0  0.9895833333333334  1.0  0.9824561403508771  1.0434782608695652  1.0052356020942408  1.0  1.0  1.0  0.0  0.0  0.0
+[main] INFO  midlab.storm.autoscaling.profiler.SelectivityProfiler  - 	dest component: __acker, stream out = 1714, alfa = 0.802434456928839
+[main] INFO  midlab.storm.autoscaling.profiler.SelectivityProfiler  - 	edge: (feature-generation-bolt : __acker), alfa avg: 0.9202220429028707, alfa history: 0.802434456928839  0.8030751034890597  0.8731808731808732  1.1284840244731476  1.023890784982935  0.8307579102281089  1.0061182868796736  0.9771328056288479  1.007320644216691  1.001456664238893  1.0078247261345852  0.9929797191887676  0.865686274509804  0.9940627650551315  0.9839797639123102  0.9935483870967742  0.998158379373849  0.937888198757764  1.006122448979592  0.9908722109533469  1.0125714285714287  1.004566210045662  0.9378698224852071  1.0127551020408163  1.199013157894737  0.9941860465116279  1.0  0.9914089347079038  0.9983079526226735  0.997946611909651  1.0415800415800416  1.125  1.0026041666666667  1.0104166666666667  1.0208333333333333  0.9929824561403509  1.0217391304347827  0.9947643979057592  1.0104166666666667  0.9791666666666666  0.9166666666666666  0.0  0.0  0.0
+
+[main] INFO  midlab.storm.autoscaling.profiler.Profiler  - Profiling regression for component pos-tagger-bolt..
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - Current component: pos-tagger-bolt
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - 	task10: load: 1917203136; input traffic: 284
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - 	task11: load: 1918015751; input traffic: 127
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - 	task12: load: 1708936731; input traffic: 153
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - 	task13: load: 1893962117; input traffic: 356
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - 	aggregated resources:
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - 	    tot load: 7455426765
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - 	    tot stream in: 1105
+
+[main] INFO  midlab.storm.autoscaling.profiler.Profiler  - Profiling selectivity for component pos-tagger-bolt..
+[main] INFO  midlab.storm.autoscaling.profiler.SelectivityProfiler  - 	dest component: feature-generation-bolt, stream out = 2136, alfa = 1.9330316742081448
+[main] INFO  midlab.storm.autoscaling.profiler.SelectivityProfiler  - 	edge: (pos-tagger-bolt : feature-generation-bolt), alfa avg: 0.9513133148399231, alfa history: 1.9330316742081448  0.9052462526766595  1.1905940594059405  0.9905723905723905  0.9208045254556882  0.9919708029197081  1.0020435967302452  1.0726415094339623  0.9927325581395349  0.9978197674418605  1.0007830853563038  1.0015625  0.9306569343065694  1.0025510204081634  1.0016891891891893  1.0027726432532347  1.0009216589861751  0.9865196078431373  0.9959349593495935  0.9979757085020243  0.9943181818181818  0.9977220956719818  0.9548022598870056  1.0  1.0133333333333334  1.0  1.0  0.9965753424657534  1.0016949152542374  1.0020576131687242  0.9979253112033195  0.9876543209876543  1.0  1.0  0.9863013698630136  0.9895833333333334  0.9787234042553191  0.9947916666666666  1.0  1.0  1.0434782608695652  0.0  0.0  0.0
+[main] INFO  midlab.storm.autoscaling.profiler.SelectivityProfiler  - 	dest component: __acker, stream out = 1923, alfa = 1.7402714932126697
+[main] INFO  midlab.storm.autoscaling.profiler.SelectivityProfiler  - 	edge: (pos-tagger-bolt : __acker), alfa avg: 0.9446171659133225, alfa history: 1.7402714932126697  0.7724839400428265  1.2566006600660067  1.0451178451178451  0.9666876178504086  0.8452554744525548  1.008174386920981  1.0481132075471697  1.0007267441860466  1.001453488372093  1.0078308535630385  0.990625  0.8047445255474452  0.9965986394557823  0.9907094594594594  0.9953789279112755  0.9972350230414746  0.9252450980392157  1.0030487804878048  0.9898785425101214  0.9795454545454545  1.0022779043280183  0.8954802259887006  1.0114795918367347  1.2133333333333334  0.9898255813953488  1.0  0.988013698630137  1.0033898305084745  1.0041152263374487  1.0394190871369295  1.1049382716049383  1.0052083333333333  1.0052083333333333  1.0171232876712328  0.9861111111111112  0.9840425531914894  0.9947916666666666  1.015625  0.9479166666666666  0.9891304347826086  0.0  0.0  0.0
+
+[main] INFO  midlab.storm.autoscaling.profiler.Profiler  - Profiling regression for component preprocessor-bolt..
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - Current component: preprocessor-bolt
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - 	task14: load: 273735468; input traffic: 359
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - 	task15: load: 378368828; input traffic: 892
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - 	task16: load: 297557625; input traffic: 499
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - 	task17: load: 279648461; input traffic: 345
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - 	aggregated resources:
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - 	    tot load: 1118839361
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - 	    tot stream in: 1903
+
+[main] INFO  midlab.storm.autoscaling.profiler.Profiler  - Profiling selectivity for component preprocessor-bolt..
+[main] INFO  midlab.storm.autoscaling.profiler.SelectivityProfiler  - 	dest component: pos-tagger-bolt, stream out = 1105, alfa = 0.58066211245402
+[main] INFO  midlab.storm.autoscaling.profiler.SelectivityProfiler  - 	edge: (preprocessor-bolt : pos-tagger-bolt), alfa avg: 0.9290091397203587, alfa history: 0.58066211245402  1.263870094722598  1.0314893617021277  0.818632855567806  0.9244625217896572  0.9716312056737588  1.0  1.0153256704980842  1.0087976539589443  0.9877961234745154  1.000783699059561  1.0031347962382444  1.0418250950570342  1.0  1.0068027210884354  1.0018518518518518  1.0009225092250922  1.0461538461538462  1.0081967213114753  1.0030456852791878  1.0  1.0126874279123415  1.1530944625407167  1.0  0.8108108108108109  1.0  1.0  1.006896551724138  0.9966216216216216  1.0103950103950103  1.0  1.051948051948052  1.0  1.0  1.0138888888888888  1.0  1.146341463414634  1.0  1.0  1.0  0.9583333333333334  0.0  0.0  0.0
+[main] INFO  midlab.storm.autoscaling.profiler.SelectivityProfiler  - 	dest component: __acker, stream out = 1914, alfa = 1.0057803468208093
+[main] INFO  midlab.storm.autoscaling.profiler.SelectivityProfiler  - 	edge: (preprocessor-bolt : __acker), alfa avg: 0.9216071869566744, alfa history: 1.0057803468208093  0.8910690121786198  0.7855319148936171  0.9332965821389195  0.8919233004067403  0.8638297872340426  1.0068119891008174  1.0507662835249043  1.0124633431085044  0.9870782483847811  1.0101880877742946  0.9937304075235109  0.8298479087452472  1.0  0.9982993197278912  0.9990740740740741  0.9990774907749077  0.9717948717948718  1.0102459016393444  0.9979695431472081  0.9636363636363636  1.013840830449827  1.0342019543973942  1.0089285714285714  0.9837837837837838  0.9927325581395349  1.001453488372093  0.9948275862068966  0.9983108108108109  1.0103950103950103  1.0352697095435686  1.1655844155844155  1.0182291666666667  1.0052083333333333  1.0416666666666667  0.9722222222222222  1.1341463414634145  1.0  1.0104166666666667  0.9895833333333334  0.9375  0.0  0.0  0.0
+
+[main] INFO  midlab.storm.autoscaling.profiler.Profiler  - Profiling regression for component svm-bolt..
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - Current component: svm-bolt
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - 	task18: load: 222780677; input traffic: 99
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - 	task19: load: 332429792; input traffic: 249
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - 	task20: load: 191326991; input traffic: 145
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - 	task21: load: 203938315; input traffic: 129
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - 	aggregated resources:
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - 	    tot load: 963330507
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - 	    tot stream in: 1623
+
+[main] INFO  midlab.storm.autoscaling.profiler.Profiler  - Profiling selectivity for component svm-bolt..
+[main] INFO  midlab.storm.autoscaling.profiler.SelectivityProfiler  - 	dest component: __acker, stream out = 1417, alfa = 0.8730745532963647
+[main] INFO  midlab.storm.autoscaling.profiler.SelectivityProfiler  - 	edge: (svm-bolt : __acker), alfa avg: 0.9276164889940706, alfa history: 0.8730745532963647  1.288757396449704  1.1439946914399468  1.2638331996792302  0.8410852713178295  0.7615176151761518  0.7890784982935154  0.9932835820895523  0.8735294117647059  0.8768115942028986  0.9882903981264637  0.9875097580015613  0.9391395592864638  0.9991496598639455  0.988135593220339  1.0009225092250922  0.9981549815498155  0.9937888198757764  0.9979612640163099  1.0040983606557377  0.9670454545454545  0.9954493742889647  0.9408284023668639  1.010204081632653  1.1385542168674698  0.9898255813953488  0.997093023255814  1.0051993067590987  0.9932203389830508  1.0062111801242235  1.0331262939958592  1.2208588957055215  1.03125  1.0157894736842106  1.0138888888888888  1.0107142857142857  0.9635416666666666  0.9947916666666666  1.0  0.9479166666666666  0.9375  0.0  0.0  0.0
+
+[main] INFO  midlab.storm.autoscaling.profiler.Profiler  - Profiling regression for component tokenizer-bolt..
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - Current component: tokenizer-bolt
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - 	task22: load: 371028332; input traffic: 366
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - 	task23: load: 527448337; input traffic: 758
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - 	task24: load: 372522129; input traffic: 368
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - 	task25: load: 357401719; input traffic: 368
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - 	aggregated resources:
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - 	    tot load: 1637380622
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - 	    tot stream in: 2051
+
+[main] INFO  midlab.storm.autoscaling.profiler.Profiler  - Profiling selectivity for component tokenizer-bolt..
+[main] INFO  midlab.storm.autoscaling.profiler.SelectivityProfiler  - 	dest component: preprocessor-bolt, stream out = 1903, alfa = 0.9278400780107264
+[main] INFO  midlab.storm.autoscaling.profiler.SelectivityProfiler  - 	edge: (tokenizer-bolt : preprocessor-bolt), alfa avg: 0.9376810468226466, alfa history: 0.9278400780107264  0.8952150211992732  1.0008517887563884  1.4676375404530744  1.1053307642903019  1.0322108345534406  1.0  0.8817567567567568  0.9941690962099126  1.007959479015919  0.996875  1.003933910306845  1.0233463035019454  1.0  0.9932432432432432  1.0  1.0064995357474467  0.9653465346534653  0.9959183673469387  1.0  1.004566210045662  0.9897260273972602  0.867231638418079  1.0  1.2416107382550337  1.0  0.9942196531791907  0.9931506849315068  0.9983136593591906  0.9979253112033195  0.9836734693877551  0.9840255591054313  1.0  1.0  1.0  1.0140845070422535  0.8913043478260869  1.0  1.0  1.0  1.0  0.0  0.0  0.0
+[main] INFO  midlab.storm.autoscaling.profiler.SelectivityProfiler  - 	dest component: __acker, stream out = 2198, alfa = 1.0716723549488054
+[main] INFO  midlab.storm.autoscaling.profiler.SelectivityProfiler  - 	edge: (tokenizer-bolt : __acker), alfa avg: 0.93079301520273, alfa history: 1.0716723549488054  0.8255602665051484  0.8347529812606473  1.3656957928802589  0.9794476557482338  0.9363103953147877  1.005449591280654  0.9290540540540541  1.001457725947522  1.0028943560057888  1.00703125  0.994492525570417  0.8667315175097277  1.0  0.9923986486486487  0.9990740740740741  1.0064995357474467  0.9344059405940595  1.006122448979592  0.9949238578680203  1.004566210045662  1.0034246575342465  0.8983050847457628  0.9948979591836735  1.2248322147651007  0.9927325581395349  0.9927745664739884  0.9914383561643836  0.9983136593591906  1.008298755186722  1.0163265306122449  1.1469648562300319  1.0052083333333333  1.0052083333333333  1.0347222222222223  0.9929577464788732  0.9836956521739131  0.9947916666666666  1.0052083333333333  0.9895833333333334  0.9166666666666666  0.0  0.0  0.0
+
+[main] INFO  midlab.storm.autoscaling.profiler.Profiler  - Profiling regression for component __acker..
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - Current component: __acker
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - 	task1: load: 496185687; input traffic: 2432
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - 	task2: load: 542766859; input traffic: 1410
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - 	task3: load: 630575847; input traffic: 4633
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - 	task4: load: 526655907; input traffic: 2061
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - 	aggregated resources:
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - 	    tot load: 2223673217
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - 	    tot stream in: 11319
+
+[main] INFO  midlab.storm.autoscaling.profiler.Profiler  - Profiling selectivity for component __acker..
+
+[main] INFO  midlab.storm.autoscaling.profiler.Profiler  - Profiling regression for component tweet-reader..
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - Current component: tweet-reader
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - 	task26: load: 418276504; output traffic: 1003
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - 	task27: load: 535076894; output traffic: 699
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - 	task28: load: 334173021; output traffic: 955
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - 	task29: load: 338731355; output traffic: 963
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - 	aggregated resources:
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - 	    tot load: 1626257774
+[main] INFO  midlab.storm.autoscaling.profiler.RegressionFunctProfiler  - 	    tot stream out: 4204
+
+[main] INFO  midlab.storm.autoscaling.profiler.Profiler  - Profiling selectivity for component tweet-reader..
+[main] INFO  midlab.storm.autoscaling.profiler.SelectivityProfiler  - 	dest component: tokenizer-bolt, stream out = 2051, alfa = 1.0
+[main] INFO  midlab.storm.autoscaling.profiler.SelectivityProfiler  - 	edge: (tweet-reader : tokenizer-bolt), alfa avg: 0.9318181818181818, alfa history: 1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  0.0  0.0  0.0
+[main] INFO  midlab.storm.autoscaling.profiler.SelectivityProfiler  - 	dest component: __acker, stream out = 2153, alfa = 1.0
+[main] INFO  midlab.storm.autoscaling.profiler.SelectivityProfiler  - 	edge: (tweet-reader : __acker), alfa avg: 0.9318181818181818, alfa history: 1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  0.0  0.0  0.0
+
+[main] INFO  midlab.storm.autoscaling.profiler.Profiler  - Profiling CPU usage for worker array..
+[main] INFO  midlab.storm.autoscaling.profiler.WorkerCpuProfiler  - Worker vm-aniello-storm-01:
+[main] INFO  midlab.storm.autoscaling.profiler.WorkerCpuProfiler  - 	summed executors input traffic: 7408 tuple/sec
+[main] INFO  midlab.storm.autoscaling.profiler.WorkerCpuProfiler  - 	summed executors output traffic: 3785 tuple/sec
+[main] INFO  midlab.storm.autoscaling.profiler.WorkerCpuProfiler  - 	summed executors load: 5627608289 Hz
+[main] INFO  midlab.storm.autoscaling.profiler.WorkerCpuProfiler  - 	worker cpu usage: 82%
+[main] INFO  midlab.storm.autoscaling.profiler.WorkerCpuProfiler  - Worker vm-aniello-storm-02:
+[main] INFO  midlab.storm.autoscaling.profiler.WorkerCpuProfiler  - 	summed executors input traffic: 3148 tuple/sec
+[main] INFO  midlab.storm.autoscaling.profiler.WorkerCpuProfiler  - 	summed executors output traffic: 3108 tuple/sec
+[main] INFO  midlab.storm.autoscaling.profiler.WorkerCpuProfiler  - 	summed executors load: 3906696231 Hz
+[main] INFO  midlab.storm.autoscaling.profiler.WorkerCpuProfiler  - 	worker cpu usage: 80%
+[main] INFO  midlab.storm.autoscaling.profiler.WorkerCpuProfiler  - Worker vm-aniello-storm-03:
+[main] INFO  midlab.storm.autoscaling.profiler.WorkerCpuProfiler  - 	summed executors input traffic: 3212 tuple/sec
+[main] INFO  midlab.storm.autoscaling.profiler.WorkerCpuProfiler  - 	summed executors output traffic: 2862 tuple/sec
+[main] INFO  midlab.storm.autoscaling.profiler.WorkerCpuProfiler  - 	summed executors load: 3846555427 Hz
+[main] INFO  midlab.storm.autoscaling.profiler.WorkerCpuProfiler  - 	worker cpu usage: 82%
+[main] INFO  midlab.storm.autoscaling.profiler.WorkerCpuProfiler  - Worker vm-aniello-storm-04:
+[main] INFO  midlab.storm.autoscaling.profiler.WorkerCpuProfiler  - 	summed executors input traffic: 3629 tuple/sec
+[main] INFO  midlab.storm.autoscaling.profiler.WorkerCpuProfiler  - 	summed executors output traffic: 2561 tuple/sec
+[main] INFO  midlab.storm.autoscaling.profiler.WorkerCpuProfiler  - 	summed executors load: 4310286068 Hz
+[main] INFO  midlab.storm.autoscaling.profiler.WorkerCpuProfiler  - 	worker cpu usage: 82%
+
+[main] INFO  midlab.storm.autoscaling.profiler.Profiler  - Iteration 44 completed.
+
+[main] INFO  midlab.storm.autoscaling.profiler.Profiler  - Profiling iterations completed.
+[main] INFO  midlab.storm.autoscaling.profiler.Profiler  - Setting definitive tables..
+[main] INFO  midlab.storm.autoscaling.profiler.Profiler  - Setting definitive alfa and max internal traffic for each edge..
+[main] INFO  midlab.storm.autoscaling.profiler.Profiler  - Definitive Alfa and max internal traffic set succesfully for all edges.
+
+[main] INFO  midlab.storm.autoscaling.profiler.Profiler  - Setting definitive regression functions for each component..
+[main] INFO  midlab.storm.autoscaling.topology.Topology  - Building neural network for pos-tagger-bolt
+[main] INFO  midlab.storm.autoscaling.topology.Topology  - Start training neural network for pos-tagger-bolt..
+[main] INFO  midlab.storm.autoscaling.topology.Topology  - Neural Network built for pos-tagger-bolt (err=0.020874022157434145%)
+
+[main] INFO  midlab.storm.autoscaling.topology.Topology  - Building neural network for tokenizer-bolt
+[main] INFO  midlab.storm.autoscaling.topology.Topology  - Start training neural network for tokenizer-bolt..
+[main] INFO  midlab.storm.autoscaling.topology.Topology  - Neural Network built for tokenizer-bolt (err=0.016135522616114565%)
+
+[main] INFO  midlab.storm.autoscaling.topology.Topology  - Building neural network for tweet-reader
+[main] INFO  midlab.storm.autoscaling.topology.Topology  - Start training neural network for tweet-reader..
+[main] INFO  midlab.storm.autoscaling.topology.Topology  - Neural Network built for tweet-reader (err=0.016771402495610085%)
+
+[main] INFO  midlab.storm.autoscaling.topology.Topology  - Building neural network for preprocessor-bolt
+[main] INFO  midlab.storm.autoscaling.topology.Topology  - Start training neural network for preprocessor-bolt..
+[main] INFO  midlab.storm.autoscaling.topology.Topology  - Neural Network built for preprocessor-bolt (err=0.028062442806130176%)
+
+[main] INFO  midlab.storm.autoscaling.topology.Topology  - Building neural network for feature-generation-bolt
+[main] INFO  midlab.storm.autoscaling.topology.Topology  - Start training neural network for feature-generation-bolt..
+[main] INFO  midlab.storm.autoscaling.topology.Topology  - Neural Network built for feature-generation-bolt (err=0.026510347509454295%)
+
+[main] INFO  midlab.storm.autoscaling.topology.Topology  - Building neural network for __acker
+[main] INFO  midlab.storm.autoscaling.topology.Topology  - Start training neural network for __acker..
+[main] INFO  midlab.storm.autoscaling.topology.Topology  - Neural Network built for __acker (err=0.023033409675582865%)
+
+[main] INFO  midlab.storm.autoscaling.topology.Topology  - Building neural network for __metricsmidlab.storm.scheduler.SchedulerMetricsConsumer
+[main] INFO  midlab.storm.autoscaling.topology.Topology  - Start training neural network for __metricsmidlab.storm.scheduler.SchedulerMetricsConsumer..
+[main] INFO  midlab.storm.autoscaling.topology.Topology  - Neural Network built for __metricsmidlab.storm.scheduler.SchedulerMetricsConsumer (err=0.006554271822413978%)
+
+[main] INFO  midlab.storm.autoscaling.topology.Topology  - Building neural network for svm-bolt
+[main] INFO  midlab.storm.autoscaling.topology.Topology  - Start training neural network for svm-bolt..
+[main] INFO  midlab.storm.autoscaling.topology.Topology  - Neural Network built for svm-bolt (err=0.012743987024449652%)
+
+[main] INFO  midlab.storm.autoscaling.profiler.Profiler  - Definitive regression functions set succesfully for each component.
+
+[main] INFO  midlab.storm.autoscaling.profiler.Profiler  - Setting definitive worker cpu usage function..
+[main] INFO  midlab.storm.autoscaling.topology.Topology  - Neural Network built for workers cpu usage
+
+[main] INFO  midlab.storm.autoscaling.profiler.Profiler  - Definitive worker cpu usage function set succesfully.
+
+[main] INFO  midlab.storm.autoscaling.profiler.Profiler  - Definitive tables set succesfully
+[main] INFO  midlab.storm.autoscaling.profiler.Profiler  - Serializing topology on file..
+[main] INFO  midlab.storm.autoscaling.profiler.Profiler  - Topology successfully serialized in resources/topology_ser/topology.ser
+[main] INFO  midlab.storm.autoscaling.profiler.Profiler  - Profiling completed.
