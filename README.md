@@ -1,0 +1,3 @@
+# ELYSIUM: ELastic sYmbiotic ScalIng of operator and resoUrces in streaM processing system
+
+ELYSIUM, is a novel elastic scaling approach for Apache Storm that provides efficient resource utilization. It automatically scales Storm along two indipendent dimensions, i.e., operator and resources. ELYSIUM employs a fine-grained model for estimating the resource utilization of a stream processing application (namely, topology), that enables the independent scaling of operators and resources, yet with a symbiotic approach.
